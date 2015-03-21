@@ -2,7 +2,7 @@
 #### This is for the Coursera.org course assignment in "Getting and Cleaning Data"
 
 
-### Variable used
+#### Variable used
 
 X_test		Contains the X_test.txt data
 X_train		Contains the X_train.txt data
@@ -19,7 +19,7 @@ Combine the subject datasets together.
 
 --------------------
 
-### Variables used
+#### Variables used
 featues		Contains the features.txt data
 namevect	Vector containing the names of the features
 meanlist	Vector containing the list of features that have the name -mean() and not thimgs like gravityMean
@@ -31,11 +31,13 @@ Lines 49-63
 In this section of the code the dataset is subsetted only have the -mean() and -std() variables. The first two columns is the Subject number between 1 to 30 and the second column is between 1 to 6 that designates the Activities performed.
 
 --------------------
+#### Variables used
+
 Lines 67 -68
 Transformation of the Activity numbers to the corresponding character string activity.
 
 --------------------
-### Variables used
+#### Variables used
 
 sorted_result	The data frame of mands_dataframe is arranged in Subject then Activity order.
 xmelt		The data frame is transformed into a skinny long dataset
